@@ -6,7 +6,7 @@
 }
 
 .calculator{
-    background-color: rgb(133, 165, 213);
+    background-color: #14bad7;
     width: 300px;
     height: 350px;
     border-radius: 15px;
@@ -42,7 +42,7 @@ background: linear-gradient(313deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 19%, rgba
     width: 40px;
     height: 40px;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 3px;
     border: 1px solid #00f2ff;
     box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
     background-color: #099097;
@@ -52,12 +52,8 @@ background: linear-gradient(313deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 19%, rgba
 .btn:active {
     background-color: #ff0000;
 }
-.zeroo{
-    width: 40px;
-}
-
-.plus{
-    height: px;
+.zero{
+    width: 85px;
 }
 
 .divcha .btn{
@@ -66,8 +62,11 @@ background: linear-gradient(313deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 19%, rgba
 }
 
 .output-div{
-    background-color: #ff0000;
+    background-color: #14bad7;
     padding: 10px 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+}
+.teng{
+    width: 85px;
 }

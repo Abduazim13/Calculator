@@ -17,7 +17,6 @@ let clrBtn = document.querySelector(".clr");
 let zeroBtn = document.querySelector(".zero")
 let vergulBtn = document.querySelector(".vergul")
 let foizBtn = document.querySelector(".foiz")
-let zerooBtn = document.querySelector(".zeroo")
 
 foizBtn.addEventListener('click', subNumber)
 oneBtn.addEventListener('click', subNumber)
