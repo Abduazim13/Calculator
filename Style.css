@@ -1,0 +1,73 @@
+.container{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.calculator{
+    background-color: rgb(133, 165, 213);
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;   
+}
+
+.output{
+    margin: 0px 10px 10px 10px;
+    width: 260px;
+    height: 70px;
+    background: rgb(2,0,36);
+background: linear-gradient(313deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 19%, rgba(0,212,255,1) 100%);
+    color: #dad30a;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    overflow: hidden;
+    border: 2px solid #00f2ff;
+}
+
+.btns-box{
+    display: flex;
+    padding: 18px;
+}
+
+.btn {
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #00f2ff;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+    background-color: #099097;
+    color: #00ff51;
+}
+
+.btn:active {
+    background-color: #ff0000;
+}
+.zeroo{
+    width: 40px;
+}
+
+.plus{
+    height: px;
+}
+
+.divcha .btn{
+    background-color: rgb(128, 46, 200);
+    border: 1px solid #00f2ff;
+}
+
+.output-div{
+    background-color: #ff0000;
+    padding: 10px 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
