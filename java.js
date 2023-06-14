@@ -34,7 +34,7 @@ plusBtn.addEventListener('click', subNumber)
 ayirBtn.addEventListener('click', subNumber)
 zeroBtn.addEventListener('click', subNumber)
 vergulBtn.addEventListener('click', subNumber)
-zerooBtn.addEventListener('click', subNumber)
+zeroBtn.addEventListener('click', subNumber)
 
 function subNumber (e) {
     output.innerHTML += e.target.value;
